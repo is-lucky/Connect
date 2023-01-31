@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block title %}Connect - My Profile{% endblock %} {%
+block container %}
+<h3 align="center">About</h3>
+<form method="POST">
+  <textarea name="about" id="about" class="form-control"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Update</button>
+  </div>
+</form>
+<br />
+<h3 align="center">Interests</h3>
+<form method="POST">
+  <textarea name="interests" id="interests" class="form-control"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Update</button>
+  </div>
+</form>
+{% endblock %}
